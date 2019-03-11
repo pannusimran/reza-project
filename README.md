@@ -4,3 +4,5 @@ Project source reference can be taken from https://github.com/ophilbert/Activity
 
 ######
 This is a light bulb transition that was given in the project catalog . When the user press the switch button the bulb seems to light up which actually is the transition that should be put though the java code.
+#####
+<a href="https://imgflip.com/gif/2vs6fw"><img src="https://i.imgflip.com/2vs6fw.gif" title="made at imgflip.com"/></a>
