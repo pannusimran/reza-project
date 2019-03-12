@@ -13,8 +13,8 @@ It is an application , which features currently basic animation styles , such as
 ## 3) Steps to make it work or to use it in my project
 
 The basic steps that were involved in making the project is as follows:
-<p> i) I created a xml layout of the app , that finds appealing to the user, with the help of android studio.</p>
-<p> ii) I had upload the images at drawable to fit to its size and perform such ON and OFF animations.(few of the codes of the animation are mentioned bellow)</p>
+<p> i) Firstly I created a xml layout of the app , that finds appealing to the user, with the help of android studio.</p>
+<p> ii) Then I had upload the images at drawable to fit to its size and perform such ON and OFF animations.(few of the codes of the animation are mentioned bellow)</p>
 
 <a href="https://imgflip.com/gif/2vs6fw"><img src="https://i.imgflip.com/2vs6fw.gif" title="made at imgflip.com"/></a>
 ######
@@ -157,7 +157,7 @@ trans1.xml.code
 
 ## 4) Limitations if any 
 
-I does not faced any hard limitation regarding ,but i had tried to provide text animation in the app , but it has some limitiations regarding the number of time it performs to kill the animation.
+I does not faced any hard limitation regarding this ,but i had tried to provide text animation in the app , but it has some limitiations regarding the number of time it performs to kill the animation.
 
 # 5) Submitted by:
-<li>Simranjeet Kaur(1794821) </li>
+Simranjeet Kaur(1794821) 
