@@ -131,7 +131,7 @@ Android manifest.Xml code
 #Animations
 
 Off state
-trans.xml code(OFF state xmlcode)
+trans.xml code
 ```java
 <?xml version="1.0" encoding="utf-8"?>
 <transition xmlns:android="http://schemas.android.com/apk/res/android">
@@ -143,7 +143,7 @@ trans.xml code(OFF state xmlcode)
 <a href="https://imgflip.com/gif/2vssm1"><img src="https://i.imgflip.com/2vssm1.gif" title="made at imgflip.com"/></a>
 
 On state
-trans1.xml.code(ON state xmlcode)
+trans1.xml.code
 ```java
 <?xml version="1.0" encoding="utf-8"?>
 <transition xmlns:android="http://schemas.android.com/apk/res/android">
@@ -154,3 +154,10 @@ trans1.xml.code(ON state xmlcode)
 
 ##
 <a href="https://imgflip.com/gif/2vssxf"><img src="https://i.imgflip.com/2vssxf.gif" title="made at imgflip.com"/></a>
+
+## 4) Limitations if any 
+
+I does not faced any hard limitation regarding ,but i had tried to provide text animation in the app , but it has some limitiations regarding the number of time it performs to kill the animation.
+
+# 5) Submitted by:
+<li>Simranjeet Kaur(1794821) </li>
