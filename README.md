@@ -2,7 +2,6 @@
 An android project presenting some transitions you can use between activities.
 ##
 Project source reference can be taken from https://github.com/ophilbert/ActivityTransition
-
 #####
 <a href="https://imgflip.com/gif/2vs6fw"><img src="https://i.imgflip.com/2vs6fw.gif" title="made at imgflip.com"/></a>
 ######
