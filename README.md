@@ -20,7 +20,53 @@ The basic steps that were involved in making the project is as follows:
 ######
 This is a light bulb transition that was given in the project catalog . When the user press the switch button the bulb seems to light up which actually is the transition that should be put though the java code.
 
-View animator Activity code:
+Android main java code:
+```java
+package com.example.kks.rezaproject;
+
+import android.graphics.drawable.TransitionDrawable;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+
+public class MainActivity extends AppCompatActivity {
+    ImageView imageView;
+    Button button;
+    boolean turnedOn = false;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+    imageView = (ImageView) findViewById(R.id.imageView);
+    button = (Button) findViewById(R.id.button);
+    button.setOnClickListener(new View.OnClickListener() {
+
+        @Override
+        public void onClick(View v)
+        {
+            if(!turnedOn) {
+                imageView.setImageResource(R.drawable.trans);
+                ((TransitionDrawable) imageView.getDrawable()).startTransition(3000);
+                turnedOn = true;
+            } else
+            {imageView.setImageResource(R.drawable.trans_off);
+                ((TransitionDrawable) imageView.getDrawable()).startTransition(3000);
+                turnedOn = false;
+
+            }
+            }
+
+
+    });
+    }
+}
+```
+
+Main xml Activity code:
 ```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -53,6 +99,32 @@ View animator Activity code:
         android:text="SWITCH" />
 </RelativeLayout>
 ```
+
+Android manifest.Xml code
+```java
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kks.rezaproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+```
+
 ###
 #Animations
 
