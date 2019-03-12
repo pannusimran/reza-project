@@ -131,9 +131,26 @@ Android manifest.Xml code
 #Animations
 
 Off state
+trans.xml code(OFF state xmlcode)
+```java
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/sim1"/>
+    <item android:drawable="@drawable/sim"/>
+</transition>
+```
 ###
 <a href="https://imgflip.com/gif/2vssm1"><img src="https://i.imgflip.com/2vssm1.gif" title="made at imgflip.com"/></a>
 
 On state
+trans1.xml.code(ON state xmlcode)
+```java
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/sim"/>
+    <item android:drawable="@drawable/sim1"/>
+</transition>
+```
+
 ##
 <a href="https://imgflip.com/gif/2vssxf"><img src="https://i.imgflip.com/2vssxf.gif" title="made at imgflip.com"/></a>
