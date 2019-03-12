@@ -12,12 +12,14 @@ Animations
 ##
 Off state
 ###
+<a href="https://imgflip.com/gif/2vssm1"><img src="https://i.imgflip.com/2vssm1.gif" title="made at imgflip.com"/></a>
+########
 <transition xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/sim1"/>
     <item android:drawable="@drawable/sim"/>
 </transition>
 ##
-<a href="https://imgflip.com/gif/2vssm1"><img src="https://i.imgflip.com/2vssm1.gif" title="made at imgflip.com"/></a>
+
 ##
 On state
 ##
