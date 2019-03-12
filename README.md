@@ -16,5 +16,4 @@ Off state
 ##
 On state
 ##
-
 <a href="https://imgflip.com/gif/2vssxf"><img src="https://i.imgflip.com/2vssxf.gif" title="made at imgflip.com"/></a>
