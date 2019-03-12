@@ -10,7 +10,7 @@ I Choose to build an app called activityTransition, it is a modern style of appl
 
 It is an application , which features currently basic animation styles , such as on/off style.It allows the users with a much more fun and animated way to enjoy their images. This basically provides some sort of feelings to the user about using the switch ON and OFF of flashlight that he/she normally do at in their PC and mobile screen.
 
-## 3)steps to make it work or to use it in my project
+## 3) Steps to make it work or to use it in my project
 
 The basic steps that were involved in making the project is as follows:
 <p> i) I created a xml layout of the app , that finds appealing to the user, with the help of android studio.</p>
@@ -19,6 +19,40 @@ The basic steps that were involved in making the project is as follows:
 <a href="https://imgflip.com/gif/2vs6fw"><img src="https://i.imgflip.com/2vs6fw.gif" title="made at imgflip.com"/></a>
 ######
 This is a light bulb transition that was given in the project catalog . When the user press the switch button the bulb seems to light up which actually is the transition that should be put though the java code.
+
+View animator Activity code:
+```java
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/sim" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:text="SWITCH" />
+</RelativeLayout>
+```
 ###
 #Animations
 
