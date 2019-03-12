@@ -11,6 +11,7 @@ This is a light bulb transition that was given in the project catalog . When the
 Animations
 ##
 Off state
+###
 <a href="https://imgflip.com/gif/2vssm1"><img src="https://i.imgflip.com/2vssm1.gif" title="made at imgflip.com"/></a>
 ##
 On state
